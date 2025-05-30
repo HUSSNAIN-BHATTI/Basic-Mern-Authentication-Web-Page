@@ -1,0 +1,37 @@
+.register{
+    width: 100%;
+    height: calc(100vh - 6vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.regleft{
+    /* background: orangered; */
+    width: 40%;
+    height: inherit;
+    padding: 3vw;
+}
+.regright{
+    width: 60%;
+    height: inherit;
+    /* background: darkblue; */
+    padding: 4vw;
+}
+.regleft  img{
+    width: 30vw;
+    height:30vw;
+}
+#rr{
+    display: block;
+    margin-top: 0.7vw;
+    color: white;
+    text-transform: capitalize;
+}
+.r2{
+    height: 2.3vw;
+    width: 30vw;
+    border-radius: 0.3vw;
+    border: transparent;
+    margin-top: .5vw;
+}

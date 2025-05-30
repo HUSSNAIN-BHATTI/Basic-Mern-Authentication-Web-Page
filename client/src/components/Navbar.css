@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PP mori';
+}
+
+.header {
+    width: 100vw;
+    height: 6vw;
+    /* background: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 4vw;
+    position: relative;
+}
+
+.right{
+    /* background: #000; */
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    color: rgb(107, 107, 228);;
+    font-size: 1.5vw;
+        
+}
+.right .r{
+    text-decoration: none;
+    color: rgb(107, 107, 228);
+    font-size: 1vw;
+}
+

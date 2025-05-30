@@ -1,0 +1,13 @@
+.list{
+    height: 4vw;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.row{
+    color: rgb(107, 107, 228);
+    font-weight: 450;
+    text-decoration: none;
+}

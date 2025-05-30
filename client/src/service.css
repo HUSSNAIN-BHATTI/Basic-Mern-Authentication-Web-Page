@@ -1,0 +1,42 @@
+.Servicemain{
+    min-height: 90vh;
+    width: 100%;
+}
+
+.elems{
+    padding: 2vw;
+    background: orangered;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+.elem{
+    padding: 1vw;
+    background: green;
+    width: 24vw;
+    height: 25vw;
+}
+.elem img{
+    width: 20vw;
+    height: 15vw;
+}
+.down1 {
+    margin-bottom: 10px;    
+    display: flex;
+    gap: 10vw;
+
+}
+
+.down h6:nth-child(2){
+    font-size: 1.5vw;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.down h6:nth-child(3) {
+    font-size: 1vw;
+    color: white;
+}

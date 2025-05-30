@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PP mori';
+}
+.main{
+    height: calc(100vh - 6vw);
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    padding: 2vw 2vw;
+}
+.mainleft h3,h4,p{
+    color: white;
+
+}
+.mainleft h3{
+    font-size: 1.2vw;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.mainleft h4 {
+    margin-top: 1vw;
+    font-size: 3.6vw;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.mainleft p{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: 200;
+    text-transform: capitalize;
+    line-height: 1.7vw;
+}
+
+.mainleft{
+    /* background: green; */
+    height: 100%;
+    width: 63%;
+    padding: 2vw;
+}
+
+.mainright{
+    /* background: blue; */
+    height: 100%;
+    width: 50%;
+    padding: 1vw 5vw;
+}
+.mainright img{
+    height: 22vw;
+    width: 28vw;
+
+}
+
+.mainleft .connect{
+    background: rgb(107, 107, 228);
+    color: white;
+    padding: 0.8vw 1.3vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+    border: none;
+}
+.mainleft .learn{
+    margin-left: 1vw;
+    color: white;
+    background: #000;
+    padding: 0.8vw 1.3vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+    border: 2px solid rgb(107, 107, 228);
+}
+
+
+

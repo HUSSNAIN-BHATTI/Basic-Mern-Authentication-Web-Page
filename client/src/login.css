@@ -1,0 +1,55 @@
+.login {
+    width: 100%;
+    height: calc(100vh - 6vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logform h1{
+    color: white;
+    font-size: 3.5vw;
+}
+
+.logleft {
+    /* background: orangered; */
+    width: 40%;
+    height: inherit;
+    padding: 3vw;
+}
+
+.logleft img{
+    width: 30vw;
+    height: 30vw;
+}
+
+.logright {
+    width: 60%;
+    height: inherit;
+    /* background: darkblue; */
+    padding: 4vw;
+}
+
+.label{
+    margin-top: .5vw;
+    display: block;
+    text-transform: capitalize
+}
+
+#password{
+    margin-top: 1vw;
+        border-radius: 4px;
+        border: transparent;
+        height: 2.3vw;
+        width: 30vw;
+        background-color: rgb(200, 194, 194);
+
+}
+
+#email{
+    margin-top: 1vw;
+        border-radius: 4px;
+        border: transparent;
+        height: 2.3vw;
+        width: 30vw;
+        background-color: rgb(200, 194, 194);
+}
